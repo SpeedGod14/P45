@@ -5,7 +5,7 @@ function setup() {
   
   rocket = createSprite(75, 300, 50, 25);
   rocket.addImage("rocket", rocketImage);
-  rocket.scale = 0.25;
+  rocket.scale = 0.65;
 
   alienGroup = new Group();
   bulletGroup = new Group();
@@ -16,7 +16,7 @@ function preload(){
   alienImage = loadAnimation("images/a1.png", "images/a2.png", "images/a3.png", "images/a4.png", "images/a5.png",
   "images/a6.png", "images/a7.png", "images/a8.png", "images/a9.png", "images/a10.png", "images/a11.png",
   "images/a12.png", "images/a13.png", "images/a14.png", "images/a15.png", "images/a16.png");
-  rocketImage = loadImage("images/rocket.png");
+  rocketImage = loadImage("images/R.png");
   bulletImage = loadImage("images/fireball.png");
   explosionImage = loadAnimation("images/e1.gif", "images/e2.gif", "images/e3.gif", "images/e4.gif", "images/e5.gif",
   "images/e6.gif", "images/e7.gif", "images/e8.gif", "images/e9.gif", "images/e10.gif", "images/e11.gif", "images/e12.gif",
